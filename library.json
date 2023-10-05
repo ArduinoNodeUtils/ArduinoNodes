@@ -1,0 +1,35 @@
+{
+    "name": "ArduinoNodes",
+    "version": "1.0.2",
+    "description": "Arduino Nodes",
+    "keywords": "",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/ArduinoNodeUtils/ArduinoNodes.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Jan Hermes",
+        "email": "mail@hermes-technology.de",
+        "url": "http://www.hermes-technology.de"
+      }
+    ],
+    "license": "BSD 3-Clause",
+    "homepage": "",
+    "dependencies": [
+      {
+	      "name": "ArduinoLogging",
+        "external-repo": "git@github.com:ArduinoNodeUtils/ArduinoLogging.git"
+      },
+      {
+	      "name": "ArduinoForNative",
+        "external-repo": "git@github.com:ArduinoNodeUtils/ArduinoForNative.git",
+        "platforms": ["native"]
+      }
+
+  ],
+    "frameworks": "*",
+    "platforms": "*"
+  }
